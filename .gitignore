@@ -21,3 +21,6 @@ log/*
 .DS_Store
 .idea/
 .vscode/
+
+# Ignore application configuration
+/config/application.yml
