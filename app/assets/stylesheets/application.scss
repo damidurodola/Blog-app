@@ -17,11 +17,17 @@
 nav,
 nav .nav-wrapper i,
 {
-    height: 95px;
+    height: 80px;
     line-height: 89px;
-    background-color: #9575cd;
+    background-color: #37474f;
+}
+
+nav>.nav-wrapper>ul>li>a:hover {
+    background-color: transparent;
 }
 
 .menu-item {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em !important;
 }
