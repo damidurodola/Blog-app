@@ -1,0 +1,36 @@
+.body-image {
+    position: fixed;
+}
+
+.img-body {
+    position: relative;
+    // left: 0px;
+    // top: 0px;
+    opacity: 0.6;
+    // z-index: -1;
+}
+
+.body-text {
+    position: absolute;
+    left: 0;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#first-text {
+    font-size: 25px;
+    color: #000000;
+    font-family: "open sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.about-body>a {
+    position: absolute;
+    border: solid 1px;
+    margin-top: 31px;
+    margin-left: -52px;
+    color: #000000;
+    padding: 5px;
+}
