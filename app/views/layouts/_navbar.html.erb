@@ -2,13 +2,14 @@
     <div class="nav-wrapper">
         <ul class="left-align hide-on-med-and-down" id="nav-mobile">
             <li class="menu-item" id="home">
-                <%= link_to "Mind Space", :target => "_self" %>
+                <%= link_to "mind space", :target => "_self" %>
             </li>
         </ul>
         <ul class="right hide-on-med-and-down">
-            <li><%= link_to "Sign in/ Sign up", :target => "_self"%></li>
-            <li><%= link_to "Write a story", blogapp_new_path %></li>
-            <li><%= link_to "TOP STORIES", :target => "_self"%></li>
+            <li><%= link_to "Write a story", new_article_path %></li>
+            <li><%= link_to "Sign in/ Sign up", new_user_path %></li>
+            <li><%= link_to "ARTICLES", articles_path%></li>
+            <li><%= link_to "CATEGORIES", :target => "_self" %></li>
             <li><a href="sass.html"><i class="material-icons">search</i></a></li>
         </ul>
     </div>
