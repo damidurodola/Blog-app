@@ -3,26 +3,26 @@
     <%= form_for @user do |f| %>
       <div class="row">
         <div class="input-field col s6">
-          <%= f.label :username %>
-          <%= f.text_field :username %>
+          <%= f.label :username  %>
+          <%= f.text_field :username, required: 'true'%>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
           <%= f.label :email %>
-          <%= f.text_field :email %>
+          <%= f.text_field :email, required: 'true'%>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
           <%= f.label :password %>
-          <%= f.password_field :password %>
+          <%= f.password_field :password, required: 'true'%>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s6">
           <%= f.label :password_confirmation %>
-          <%= f.password_field :password_confirmation %>
+          <%= f.password_field :password_confirmation, required: 'true'%>
         </div>
       </div>
       <div class="row">
@@ -31,10 +31,5 @@
         </div>
       </div>
     <% end %>
-  </div>
-  <div class="row">
-    <div class="col s6 offset-s4">
-      <%= link_to '<<Cancel request and return to articles listing', articles_path %>
-    </div>
   </div>
 </div>
